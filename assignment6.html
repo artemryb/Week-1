@@ -1,0 +1,29 @@
+<html lang="en">
+<!--Created by Artem Rybintsev -
+        Student #301192540-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="assignment6.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script defer src="assignment6.js"></script>
+  <title>Image Gallery</title>
+</head>
+
+<body>
+  <div id="container" class="slider"></div>
+
+  <script>
+    jQuery(function () {
+      Slider({
+          selector: "#container",
+          dataSource: loadGalleryFromJSON("/images.json"),
+          width: 1200,
+          height: 720,
+      });
+  });
+  </script>
+</body>
+
+</html>

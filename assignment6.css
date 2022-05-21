@@ -1,0 +1,83 @@
+#container {
+  margin: 0 auto;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider > .slider-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin 0.5s;
+}
+
+.slider > .slider-container > .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  overflow: hidden
+}
+
+.slider > .slider-container > .slide > img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.slider > .slider-controls-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slider > .slider-controls-container > a.control.prev,
+.slider > .slider-controls-container > a.control.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.slider > .slider-controls-container > a.control.prev:hover,
+.slider > .slider-controls-container > a.control.next:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.slider > .slider-controls-container > a.control.prev {
+  left: 0;
+}
+
+.slider > .slider-controls-container > a.control.next {
+  right: 0;
+}
+
+.slider > .slider-controls-container > button.control.update {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.slider > .slider-controls-container > button.control.update:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

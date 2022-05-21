@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/pictures/pic1.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic2.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic3.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic4.JPG",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic5.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic6.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic7.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic8.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic9.jpg",
+    "visibleTimeMs": 1000
+  },
+  {
+    "path": "/pictures/pic10.jpg",
+    "visibleTimeMs": 1000
+  }
+]
